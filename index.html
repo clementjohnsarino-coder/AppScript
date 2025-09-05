@@ -18,14 +18,12 @@
     .then(res => res.text())
     .then(msg => alert(msg))
     .catch(err => console.error("Error:", err));
-  });
-
-    fetch("https://script.google.com/macros/s/AKfycbxwbbMm0pWjzzQxvWBMZB1jYNX0vzflP_H2v0RG3G8LZI2bQ6L6ApU928rsk6wbg7zSJw/exec")
+  
+  fetch("https://script.google.com/macros/s/AKfycbxwbbMm0pWjzzQxvWBMZB1jYNX0vzflP_H2v0RG3G8LZI2bQ6L6ApU928rsk6wbg7zSJw/exec")
   .then(res => res.json())
   .then(data => console.log(data));
-
+});
 </script>
 
   </body>
-
 </html>
