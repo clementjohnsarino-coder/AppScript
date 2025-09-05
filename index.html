@@ -6,7 +6,7 @@
   <body>
     <button id="saveBtn">Save Data</button>
 <script>
-  const scriptURL = "https://script.google.com/macros/s/AKfycbx8c9hwO-xKXUJo4d3YxotesXFdx0ckEELIcMqIF9RarjC4kjDL1z8WffYG6X9Ipqc/exec"; // paste your Web App URL here
+  const scriptURL = "https://script.google.com/macros/s/AKfycbxwbbMm0pWjzzQxvWBMZB1jYNX0vzflP_H2v0RG3G8LZI2bQ6L6ApU928rsk6wbg7zSJw/exec"; // paste your Web App URL here
 
   document.getElementById("saveBtn").addEventListener("click", () => {
     const payload = { name: "John Doe", score: 95 };
@@ -20,11 +20,12 @@
     .catch(err => console.error("Error:", err));
   });
 
-    fetch("https://script.google.com/macros/s/AKfycbx8c9hwO-xKXUJo4d3YxotesXFdx0ckEELIcMqIF9RarjC4kjDL1z8WffYG6X9Ipqc/exec")
+    fetch("https://script.google.com/macros/s/AKfycbxwbbMm0pWjzzQxvWBMZB1jYNX0vzflP_H2v0RG3G8LZI2bQ6L6ApU928rsk6wbg7zSJw/exec")
   .then(res => res.json())
   .then(data => console.log(data));
 
 </script>
 
   </body>
+
 </html>
